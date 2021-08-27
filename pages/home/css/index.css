@@ -224,7 +224,6 @@ strong {
 .hero .container {
   position: relative;
   overflow: hidden;
-  height: 580px;
 }
 
 .heroText {
@@ -738,11 +737,6 @@ strong {
 /*---------------------------------------
   RESPONSIVE STYLES
 -----------------------------------------*/
-@media screen and (min-width: 1600px) {
-  .hero .container {
-    height: 740px;
-  }
-}
 
 @media screen and (max-width: 991px) {
   body {
@@ -786,10 +780,6 @@ strong {
   .navbar-nav .nav-link {
     padding-top: 5px;
     padding-bottom: 10px;
-  }
-
-  .hero .container {
-    height: inherit;
   }
 
   .heroText {
@@ -877,4 +867,13 @@ strong {
   .timeline::before {
     left: 42px;
   }
+}
+
+.logo-img {
+  height: 90vh;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
 }
