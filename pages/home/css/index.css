@@ -233,7 +233,8 @@ strong {
   bottom: 0;
   right: 0;
   padding: 1.5rem 2.5rem;
-  width: 75%;
+  width: 48%;
+  margin-bottom: 5%;
 }
 
 .contact-phone {
@@ -630,12 +631,12 @@ strong {
 
 .reviews-carousel .owl-nav .owl-prev {
   position: relative;
-  left: -80px;
+  left: -320px;
 }
 
 .reviews-carousel .owl-nav .owl-next {
   position: relative;
-  right: -80px;
+  right: -320px;
 }
 
 .reviews-carousel .owl-prev span,
@@ -781,7 +782,7 @@ strong {
     padding-top: 5px;
     padding-bottom: 10px;
   }
-
+ 
   .heroText {
     position: relative;
     bottom: 100px;
@@ -874,6 +875,6 @@ strong {
 }
 
 .logo-container {
-  display: flex;
+  display: block;
   justify-content: center;
 }
